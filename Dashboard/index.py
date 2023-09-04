@@ -29,7 +29,6 @@ CONTENT_STYLE = {
 
 content = html.Div(id="page-content", style=CONTENT_STYLE)
 app.layout = html.Div([dcc.Location(id='url', refresh=False), sidebar_layout, content])
-server = app.server
 
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
