@@ -9,7 +9,7 @@ The presentation can be found here: https://youtu.be/cF7k6bHub8o
 
 ## Dashboard
 
-This repository contains a deployed Dash dashboard that can be found here: [https://snickers25242.pythonanywhere.com/](https://forest-fire-hl16.onrender.com/)
+This repository contains a deployed Dash dashboard that can be found here: https://forest-fire-hl16.onrender.com/
 
 ## To Run
 
