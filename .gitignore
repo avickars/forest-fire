@@ -6,3 +6,9 @@ somestuff.txt
 .idea/inspectionProfiles/
 
 Dashboard/__pycache__/
+
+Dashboard/apps/avickars/__pycache__/
+
+Dashboard/apps/__pycache__/
+
+*.pyc
