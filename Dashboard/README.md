@@ -2,7 +2,7 @@
 
 ## Deployed Version
 
-This dashboard has already been deployed here: https://snickers25242.pythonanywhere.com/
+This dashboard has already been deployed here: https://forest-fire-hl16.onrender.com/
 
 ## Necessary Packages
 - dash==2.0.0
