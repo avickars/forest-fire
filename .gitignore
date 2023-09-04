@@ -1,2 +1,8 @@
 /DataSets/
 somestuff.txt
+.idea/
+
+
+.idea/inspectionProfiles/
+
+Dashboard/__pycache__/
