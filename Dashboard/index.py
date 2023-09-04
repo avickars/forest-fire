@@ -11,15 +11,15 @@ from apps.avickars import \
     forest_fire_correlation_tab_contents as p3, \
     n_day_temp_average_contents as p4
 
-from apps.asa404 import \
-    year_range_average as p5, \
-    fire_station_mapping_with_wildfire_events as p6, \
-    fire_station_wildfire_map as p9
+# from apps.asa404 import \
+#     year_range_average as p5, \
+#     fire_station_mapping_with_wildfire_events as p6, \
+#     fire_station_wildfire_map as p9
 
 
-from apps.rka73 import \
-    air_quality_yearly as p7, \
-    air_quality_station_mapping as p8
+# from apps.rka73 import \
+#     air_quality_yearly as p7, \
+#     air_quality_station_mapping as p8
 
 CONTENT_STYLE = {
     "marginLeft": "18rem",
@@ -42,16 +42,16 @@ def display_page(pathname):
         return p3.layout
     elif pathname == '/page-3':
         return p4.layout
-    elif pathname == '/page-4':
-        return p5.layout
-    elif pathname == '/page-5':
-        return p6.layout
-    elif pathname == '/page-6':
-        return p7.layout
-    elif pathname == '/page-7':
-        return p8.layout
-    elif pathname == '/page-8':
-        return p9.layout
+    # elif pathname == '/page-4':
+    #     return p5.layout
+    # elif pathname == '/page-5':
+    #     return p6.layout
+    # elif pathname == '/page-6':
+    #     return p7.layout
+    # elif pathname == '/page-7':
+    #     return p8.layout
+    # elif pathname == '/page-8':
+    #     return p9.layout
     else:
         return dbc.Jumbotron(
             [
